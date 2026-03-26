@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Intelligence and Imitation | Published Abstracts</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+body { font-family: Inter, sans-serif; }
+h1, h2, h3 { font-family: "Playfair Display", serif; }
+
+.navbar {
+    background: rgba(15,23,42,0.95);
+    backdrop-filter: blur(12px);
+    padding: 0.85rem 0;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-weight: 800;
+    line-height: 1.1;
+    font-size: 1.02rem;
+}
+
+.nav-link {
+    color: rgba(255,255,255,0.9) !important;
+    font-weight: 500;
+    margin: 0 0.25rem;
+    position: relative;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: #fff !important;
+}
+
+.nav-link.active::after,
+.nav-link:hover::after {
+    content: "";
+    position: absolute;
+    left: 0.5rem;
+    right: 0.5rem;
+    bottom: 0;
+    height: 2px;
+    background: linear-gradient(90deg,#1d4ed8,#7c3aed);
+    border-radius: 999px;
+}
+
+.page-hero {
+    padding: 9rem 0 4rem;
+    background: linear-gradient(120deg, rgba(10,15,30,.9), rgba(43,27,92,.7));
+    color: #fff;
+    text-align: center;
+}
+
+.section { padding: 5rem 0; }
+
+.abstract-card {
+    border: 1px solid #e4e7ec;
+    border-radius: 20px;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 12px 30px rgba(0,0,0,.05);
+    margin-bottom: 30px;
+}
+
+.abstract-title { font-weight: 700; }
+.abstract-authors { font-weight: 600; color: #0f172a; }
+.abstract-affiliations { font-size: 0.9rem; color: #555; margin-top: 8px; }
+.abstract-text { margin-top: 15px; line-height: 1.6; }
+
+.footer {
+    background:#0f172a;
+    color:#fff;
+    padding:2rem 0;
+    text-align:center;
+}
+
+#noResults {
+    display: none;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #777;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background: rgba(15,23,42,0.96);
+        margin-top: 1rem;
+        padding: 1rem;
+        border-radius: 18px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<div class="container">
+<a class="navbar-brand text-white" href="index.html">
+    Intelligence & Imitation
+    <span style="display:block; font-size:0.78rem; font-weight:500; opacity:0.9; margin-top:0.2rem;">
+        Mind, Mechanism, Mimesis • 2026
+    </span>
+</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+<li class="nav-item"><a class="nav-link" href="speakers.html">Speakers</a></li>
+<li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+<li class="nav-item"><a class="nav-link" href="call-for-papers.html">Call for Papers</a></li>
+<!-- <li class="nav-item"><a class="nav-link" href="registration.html">Registration</a></li> -->
+<li class="nav-item"><a class="nav-link active" href="abstracts.html">Abstracts</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="page-hero">
+<div class="container">
+<h1>Published Abstracts</h1>
+<p>Approved abstracts are permanently archived here as part of the conference scholarly record.</p>
+</div>
+</section>
+
+<!-- ABSTRACTS -->
+<section class="section">
+<div class="container">
+
+<!-- SEARCH BOX -->
+<div class="row mb-4">
+<div class="col-md-6 mx-auto">
+<input type="text" id="searchBox" class="form-control form-control-lg"
+placeholder="Search abstracts, authors, affiliations...">
+</div>
+</div>
+
+<div id="noResults">No matching abstracts found.</div>
+
+<div style="border-top: 10px solid rgba(15,23,42,0.95);" class="abstract-card searchable"
+data-search="reimagining mimesis in the age of ai olusegun folorunso oluwafolake ojo mutiu busari muftau adebayo adejumobi joshua daniel folorunso charles okechukwu ugwunna olufemi olabanjo olusola olabanjo department of computer science federal university of agriculture abeokuta 2240 nigeria department of soil science and land management federal university of agriculture abeokuta 2240 nigeria safefood africa agroenterprise abeokuta 110123 nigeria this paper explores the evolving notion of mimesis in contemporary artificial intelligence systems examining how generative models reproduce reinterpret and transform cultural artifacts">
+    <h3 class="abstract-title">Reimagining Mimesis in the Age of AI</h3>
+
+    <div class="abstract-authors">
+        Olusegun Folorunso<sup>1*</sup>, 
+        Oluwafolake Ojo<sup>1</sup>, 
+        Mutiu Busari<sup>2</sup>, 
+        Muftau Adebayo<sup>3</sup>, 
+        Adejumobi Joshua<sup>1</sup>, 
+        Daniel Folorunso<sup>1</sup>, 
+        Charles Okechukwu Ugwunna<sup>1</sup>, 
+        Olufemi Olabanjo<sup>1</sup>, 
+        Olusola Olabanjo<sup>1</sup>
+    </div>
+
+    <div class="abstract-affiliations">
+        <div><sup>1</sup> Department of Computer Science, Federal University of Agriculture, Abeokuta 2240, Nigeria</div>
+        <div><sup>2</sup> Department of Soil Science and Land Management, Federal University of Agriculture, Abeokuta 2240, Nigeria</div>
+        <div><sup>3</sup> Safefood Africa Agroenterprise, Abeokuta 110123, Nigeria</div>
+        <div><sup>*</sup> Author to whom correspondence should be addressed.</div>
+    </div>
+
+    <div class="abstract-text">
+        This paper explores the evolving notion of mimesis in contemporary artificial intelligence systems, examining how generative models reproduce, reinterpret, and transform cultural artifacts...
+    </div>
+</div>
+
+<div style="border-top: 10px solid rgba(15,23,42,0.95);" class="abstract-card searchable"
+data-search="reimagining mimesis in the age of ai olusegun folorunso oluwafolake ojo mutiu busari muftau adebayo adejumobi joshua daniel folorunso charles okechukwu ugwunna olufemi olabanjo olusola olabanjo department of computer science federal university of agriculture abeokuta 2240 nigeria department of soil science and land management federal university of agriculture abeokuta 2240 nigeria safefood africa agroenterprise abeokuta 110123 nigeria this paper explores the evolving notion of mimesis in contemporary artificial intelligence systems examining how generative models reproduce reinterpret and transform cultural artifacts">
+    <h3 class="abstract-title">Reimagining Mimesis in the Age of AI</h3>
+
+    <div class="abstract-authors">
+        Olusegun Folorunso<sup>1*</sup>, 
+        Oluwafolake Ojo<sup>1</sup>, 
+        Mutiu Busari<sup>2</sup>, 
+        Muftau Adebayo<sup>3</sup>, 
+        Adejumobi Joshua<sup>1</sup>, 
+        Daniel Folorunso<sup>1</sup>, 
+        Charles Okechukwu Ugwunna<sup>1</sup>, 
+        Olufemi Olabanjo<sup>1</sup>, 
+        Olusola Olabanjo<sup>1</sup>
+    </div>
+
+    <div class="abstract-affiliations">
+        <div><sup>1</sup> Department of Computer Science, Federal University of Agriculture, Abeokuta 2240, Nigeria</div>
+        <div><sup>2</sup> Department of Soil Science and Land Management, Federal University of Agriculture, Abeokuta 2240, Nigeria</div>
+        <div><sup>3</sup> Safefood Africa Agroenterprise, Abeokuta 110123, Nigeria</div>
+        <div><sup>*</sup> Author to whom correspondence should be addressed.</div>
+    </div>
+
+    <div class="abstract-text">
+        This paper explores the evolving notion of mimesis in contemporary artificial intelligence systems, examining how generative models reproduce, reinterpret, and transform cultural artifacts...
+    </div>
+</div>
+
+<div style="border-top: 10px solid rgba(15,23,42,0.95);" class="abstract-card searchable"
+data-search="reimagining mimesis in the age of ai olusegun folorunso oluwafolake ojo mutiu busari muftau adebayo adejumobi joshua daniel folorunso charles okechukwu ugwunna olufemi olabanjo olusola olabanjo department of computer science federal university of agriculture abeokuta 2240 nigeria department of soil science and land management federal university of agriculture abeokuta 2240 nigeria safefood africa agroenterprise abeokuta 110123 nigeria this paper explores the evolving notion of mimesis in contemporary artificial intelligence systems examining how generative models reproduce reinterpret and transform cultural artifacts">
+    <h3 class="abstract-title">Reimagining Mimesis in the Age of AI</h3>
+
+    <div class="abstract-authors">
+        Olusegun Folorunso<sup>1*</sup>, 
+        Oluwafolake Ojo<sup>1</sup>, 
+        Mutiu Busari<sup>2</sup>, 
+        Muftau Adebayo<sup>3</sup>, 
+        Adejumobi Joshua<sup>1</sup>, 
+        Daniel Folorunso<sup>1</sup>, 
+        Charles Okechukwu Ugwunna<sup>1</sup>, 
+        Olufemi Olabanjo<sup>1</sup>, 
+        Olusola Olabanjo<sup>1</sup>
+    </div>
+
+    <div class="abstract-affiliations">
+        <div><sup>1</sup> Department of Computer Science, Federal University of Agriculture, Abeokuta 2240, Nigeria</div>
+        <div><sup>2</sup> Department of Soil Science and Land Management, Federal University of Agriculture, Abeokuta 2240, Nigeria</div>
+        <div><sup>3</sup> Safefood Africa Agroenterprise, Abeokuta 110123, Nigeria</div>
+        <div><sup>*</sup> Author to whom correspondence should be addressed.</div>
+    </div>
+
+    <div class="abstract-text">
+        This paper explores the evolving notion of mimesis in contemporary artificial intelligence systems, examining how generative models reproduce, reinterpret, and transform cultural artifacts...
+    </div>
+</div>
+
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+<div class="container">
+<p>© 2026 Intelligence and Imitation Conference</p>
+</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+$(document).ready(function () {
+    $("#searchBox").on("keyup", function () {
+        let value = $(this).val().toLowerCase();
+        let visibleCount = 0;
+
+        $(".searchable").each(function () {
+            let text = $(this).data("search");
+
+            if (text.includes(value)) {
+                $(this).fadeIn(200);
+                visibleCount++;
+            } else {
+                $(this).fadeOut(200);
+            }
+        });
+
+        if (visibleCount === 0) {
+            $("#noResults").fadeIn();
+        } else {
+            $("#noResults").hide();
+        }
+    });
+});
+</script>
+
+</body>
+</html>
